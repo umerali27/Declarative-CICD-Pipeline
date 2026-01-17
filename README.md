@@ -1,3 +1,5 @@
+diagram-export-1-17-2026-6_48_22-PM.png
+
 # Declarative CI/CD Pipeline on AWS
 
 ## Project Overview
@@ -108,6 +110,7 @@ This setup mirrors how organizations:
 
 ## Author
 Umer Ali
+
 
 
 
