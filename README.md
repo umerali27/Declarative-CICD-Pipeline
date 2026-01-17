@@ -34,6 +34,3 @@ The goal is to automate application build, containerization, infrastructure prov
 - Version Control: Git & GitHub
 
 ---
-
-## Project Structure
-
