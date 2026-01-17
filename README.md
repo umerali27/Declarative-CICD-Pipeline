@@ -104,18 +104,9 @@ This setup mirrors how organizations:
 - Writing Infrastructure as Code with Terraform
 - Using GitHub for version control and collaboration
 - Understanding DevOps workflows end-to-end
-
----
-
-## Future Enhancements
-
-- Push Docker images to AWS ECR
-- Deploy application using AWS ALB
-- Add monitoring with CloudWatch
-- Integrate security scanning (DevSecOps)
-
 ---
 
 ## Author
 Umer Ali
+
 
