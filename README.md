@@ -34,3 +34,88 @@ The goal is to automate application build, containerization, infrastructure prov
 - Version Control: Git & GitHub
 
 ---
+
+## Application Details
+
+The application is a simple Flask-based web service used to demonstrate CI/CD automation.
+
+- Runs on port 5000
+- Returns a sample response to verify deployment success
+- Fully containerized using Docker
+
+---
+
+## CI/CD Pipeline Explanation
+
+The Jenkins Declarative Pipeline performs the following stages:
+
+1. **Checkout Code**
+   - Pulls source code from GitHub
+
+2. **Build Docker Image**
+   - Builds a Docker image using the Dockerfile
+
+3. **Run Docker Container**
+   - Runs the application container on port 5000
+
+This pipeline ensures repeatable and automated deployments.
+
+---
+
+## Infrastructure as Code (Terraform)
+
+Terraform is used to provision AWS infrastructure.
+
+Resources created:
+- AWS EC2 instance (t2.micro)
+- Tagged resources for identification
+
+Benefits:
+- Consistent infrastructure
+- Easy recreation and cleanup
+- Version-controlled infrastructure
+
+---
+
+## Security & Best Practices
+
+- No hard-coded credentials
+- Infrastructure defined using IaC
+- Dockerized application for consistency
+- GitHub version control with clean commit history
+- `.gitignore` used to protect sensitive files
+
+---
+
+## Real-World Use Case
+
+This setup mirrors how organizations:
+- Automate deployments
+- Reduce manual errors
+- Maintain consistent environments
+- Scale DevOps practices efficiently
+
+---
+
+## What I Learned
+
+- Designing CI/CD pipelines using Jenkins Declarative syntax
+- Containerizing applications using Docker
+- Writing Infrastructure as Code with Terraform
+- Using GitHub for version control and collaboration
+- Understanding DevOps workflows end-to-end
+
+---
+
+## Future Enhancements
+
+- Push Docker images to AWS ECR
+- Deploy application using AWS ALB
+- Add monitoring with CloudWatch
+- Integrate security scanning (DevSecOps)
+
+---
+
+## Author
+Umer Ali
+
