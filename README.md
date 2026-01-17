@@ -76,22 +76,6 @@ Benefits:
 - Version-controlled infrastructure
 
 ---
-## Project Structure
-
-├── app/
-│ ├── app.py
-│ ├── Dockerfile
-│ └── requirements.txt
-├── terraform/
-│ ├── provider.tf
-│ └── main.tf
-├── jenkins/
-│ └── Jenkinsfile
-├── scripts/
-├── screenshots/
-├── .gitignore
-└── README.md
----
 
 ## Security & Best Practices
 
@@ -124,6 +108,7 @@ This setup mirrors how organizations:
 
 ## Author
 Umer Ali
+
 
 
 
